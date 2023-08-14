@@ -42,6 +42,5 @@ public class UserService {
 		entity.setNome(obj.getNome());
 		entity.setEmail(obj.getEmail());
 		entity.setPhone(obj.getPhone());
-		
 	}
 }
