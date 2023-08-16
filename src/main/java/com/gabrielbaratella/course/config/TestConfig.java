@@ -75,7 +75,7 @@ public class TestConfig implements CommandLineRunner{
 		
 		userRepo.saveAll(Arrays.asList(u1,u2));
 		
-		Order o1 = new Order(null, Instant.parse("2019-06-20T19:53:07Z"), OrderStatus.PAID, u1);
+		Order o1 = new Order(null, Instant.parse("2019-06-20T19:53:08Z"), OrderStatus.PAID, u1);
 		Order o2 = new Order(null, Instant.parse("2019-07-21T03:42:10Z"), OrderStatus.WAITING_PAYMENT, u2);
 		Order o3 = new Order(null, Instant.parse("2019-07-22T15:21:22Z"), OrderStatus.WAITING_PAYMENT, u1);
 		
